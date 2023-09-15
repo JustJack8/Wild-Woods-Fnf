@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="NITW_PRESS_ENTER.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Confirm0000" x="1" y="1" width="877" height="115"/>
+	<SubTexture name="Confirm0001" x="1" y="1" width="877" height="115"/>
+	<SubTexture name="Confirm0002" x="881" y="1" width="693" height="90" frameX="-92" frameY="-12" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0003" x="881" y="1" width="693" height="90" frameX="-92" frameY="-12" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0004" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0005" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0006" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0007" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0008" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0009" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0010" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0011" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0012" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0013" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0014" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0015" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0016" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0017" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0018" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0019" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0020" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0021" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0022" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0023" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0024" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0025" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0026" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0027" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0028" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Confirm0029" x="1" y="119" width="716" height="94" frameX="-80" frameY="-10" frameWidth="877" frameHeight="115"/>
+	<SubTexture name="Idle0000" x="720" y="119" width="716" height="94"/>
+	<SubTexture name="Idle0001" x="1" y="216" width="716" height="94"/>
+	<SubTexture name="Idle0002" x="720" y="216" width="716" height="94"/>
+	<SubTexture name="Idle0003" x="1" y="313" width="716" height="94"/>
+	<SubTexture name="Idle0004" x="720" y="313" width="716" height="94"/>
+	<SubTexture name="Idle0005" x="1" y="410" width="716" height="94"/>
+	<SubTexture name="Idle0006" x="720" y="410" width="716" height="94"/>
+	<SubTexture name="Idle0007" x="1" y="507" width="716" height="94"/>
+	<SubTexture name="Idle0008" x="720" y="507" width="716" height="94"/>
+	<SubTexture name="Idle0009" x="1" y="604" width="716" height="94"/>
+	<SubTexture name="Idle0010" x="720" y="604" width="716" height="94"/>
+	<SubTexture name="Idle0011" x="1" y="701" width="716" height="94"/>
+	<SubTexture name="Idle0012" x="720" y="701" width="716" height="94"/>
+	<SubTexture name="Idle0013" x="1" y="798" width="716" height="94"/>
+	<SubTexture name="Idle0014" x="720" y="798" width="716" height="94"/>
+	<SubTexture name="Idle0015" x="1" y="895" width="716" height="94"/>
+	<SubTexture name="Idle0016" x="720" y="895" width="716" height="94"/>
+	<SubTexture name="Idle0017" x="1" y="992" width="716" height="94"/>
+	<SubTexture name="Idle0018" x="720" y="992" width="716" height="94"/>
+	<SubTexture name="Idle0019" x="1" y="1089" width="716" height="94"/>
+	<SubTexture name="Idle0020" x="720" y="1089" width="716" height="94"/>
+	<SubTexture name="Idle0021" x="1" y="1186" width="716" height="94"/>
+	<SubTexture name="Idle0022" x="720" y="1186" width="716" height="94"/>
+	<SubTexture name="Idle0023" x="1" y="1283" width="716" height="94"/>
+	<SubTexture name="Idle0024" x="720" y="1283" width="716" height="94"/>
+	<SubTexture name="Idle0025" x="1" y="1380" width="716" height="94"/>
+	<SubTexture name="Idle0026" x="720" y="1380" width="716" height="94"/>
+	<SubTexture name="Idle0027" x="1" y="1477" width="716" height="94"/>
+	<SubTexture name="Idle0028" x="720" y="1477" width="716" height="94"/>
+	<SubTexture name="Idle0029" x="1" y="1574" width="716" height="94"/>
+</TextureAtlas>

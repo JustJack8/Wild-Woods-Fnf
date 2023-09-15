@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-44
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mouse bf down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-44
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "mouse bf down miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mouse bf idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mouse bf left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-1
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "mouse bf left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mouse bf right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				-3
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "mouse bf right miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				28
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "mouse bf up miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-41,
+				29
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "mouse bf up0"
+		}
+	],
+	"no_antialiasing": false,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/NITW_BF",
+	"position": [
+		0,
+		210
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
