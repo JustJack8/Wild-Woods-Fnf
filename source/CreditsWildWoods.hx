@@ -8,6 +8,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 
 class CreditsWildWoods extends MusicBeatState
 {
+	private static var curSelected:Int = 0;
     private var notebookGrp:FlxTypedGroup<NoteBookSpr>;
 
     // DEBUG THING
@@ -34,7 +35,7 @@ class CreditsWildWoods extends MusicBeatState
 
 		for (i in 0...chars.length)
         {
-            var noteBookSpr:NoteBookSpr = new NoteBookSpr((300 * i) + 400, 35);
+            var noteBookSpr:NoteBookSpr = new NoteBookSpr((1000 * i), 35);
             noteBookSpr.loadGraphic(Paths.image('creditsChars/' + chars[i], 'preload'));
             noteBookSpr.coolNoteBookX = i;
             notebookGrp.add(noteBookSpr);
@@ -46,11 +47,23 @@ class CreditsWildWoods extends MusicBeatState
 		    editMode = true; 
         }
 
+		changeSelection();
+
         super.create();
     }
 
     override public function update(elapsed:Float):Void
     {
+		if (controls.UI_LEFT_P)
+		{
+			changeSelection(-1);
+		}
+
+		if (controls.UI_RIGHT_P)
+		{
+			changeSelection(1);
+		}
+
         if (editMode)
 			{
 				if (FlxG.keys.pressed.SHIFT)
@@ -120,6 +133,24 @@ class CreditsWildWoods extends MusicBeatState
 
         super.update(elapsed);
     }
+
+	function changeSelection(change:Int = 0)
+	{
+		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+	
+		curSelected += change;
+	
+		if (curSelected < 0)
+			curSelected = chars.length - 1;
+		if (curSelected >= chars.length)
+			curSelected = 0;
+		
+		var i = 0;
+		for(item in notebookGrp.members) {
+			item.coolNoteBookX = i - curSelected;
+			i++;
+		}
+	}
 }
 
 class NoteBookSpr extends FlxSprite
@@ -132,7 +163,7 @@ class NoteBookSpr extends FlxSprite
     }
 
     override function update(elapsed:Float) {
-        x = FlxMath.lerp(x, (FlxMath.remapToRange(coolNoteBookX, 0, 1, 0, 1.3) * 2260) + 50, CoolUtil.boundTo(elapsed * 9.6, 0, 1));
+        x = FlxMath.lerp(x, (FlxMath.remapToRange(coolNoteBookX, 0, 1, 0, 1.3) * 3060) + 50, CoolUtil.boundTo(elapsed * 9.6, 0, 1));
         super.update(elapsed);
     } 
 
