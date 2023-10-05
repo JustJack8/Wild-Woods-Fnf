@@ -360,7 +360,7 @@ class NoteOffsetState extends MusicBeatState
 				FlxG.sound.playMusic(Paths.music('offsetSong'));
 				FlxG.sound.music.fadeIn(2, 0, 1);
 			} else {
-				FlxG.sound.playMusic(Paths.music('freakyMenu'), 1, true);
+				FlxG.sound.playMusic(Paths.music('Mitw_menu_theme'), 1, true);
 			}
 			FlxG.mouse.visible = false;
 		}

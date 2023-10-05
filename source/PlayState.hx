@@ -3902,7 +3902,7 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					FlxG.sound.playMusic(Paths.music('Mitw_menu_theme'));
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {
@@ -3972,7 +3972,7 @@ class PlayState extends MusicBeatState
 					CustomFadeTransition.nextCamera = null;
 				}
 				MusicBeatState.switchState(new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('Mitw_menu_theme'));
 				changedDifficulty = false;
 			}
 			transitioning = true;
@@ -4529,10 +4529,6 @@ class PlayState extends MusicBeatState
 						if (char.mostRecentRow != note.row)
 						{
 							char.playAnim(realAnim, true);
-							if(curStage == "bobOmbBattlefield"){
-								trace('mhm');
-
-							}
 						}
 	
 						if(note != animNote){
