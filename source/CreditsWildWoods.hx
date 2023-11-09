@@ -16,16 +16,16 @@ class CreditsWildWoods extends MusicBeatState
 	var editableSprite:FlxSprite;
 	var lpo:Int = 700;
 
-    public var chars:Array<String> = [
-        'jorclaiyteahlol',
-        'slightlycredited',
-        'justjackcredited',
-        'klawkredit',
-        'snowmanjoecredit',
-        'gummycred',
-        'majii',
-        'jacobe',
-        'pixlplanett'
+    public var chars:Array<Array<String>> = [
+        ['jorclaiyteahlol', 'https://www.twitter.com/OfficialJorclai'],
+		['slightlycredited', 'https://twitter.com/SlightlyCre'],
+		['justjackcredited', 'https://twitter.com/Just_Jack6'],
+		['klawkredit', 'https://www.twitter.com/KlawkSandwich'],
+		['snowmanjoecredit', 'https://twitter.com/GummyIsDummy'],
+		['gummycred', ''],
+		['majii', 'https://www.twitter.com/liminalstarboy'],
+		['jacobe', ''],
+		['pixlplanett', '']
     ];
 
     override public function create():Void
@@ -36,7 +36,7 @@ class CreditsWildWoods extends MusicBeatState
 		for (i in 0...chars.length)
         {
             var noteBookSpr:NoteBookSpr = new NoteBookSpr((1000 * i), 35);
-            noteBookSpr.loadGraphic(Paths.image('creditsChars/' + chars[i], 'preload'));
+            noteBookSpr.loadGraphic(Paths.image('creditsChars/' + chars[i][0], 'preload'));
             noteBookSpr.coolNoteBookX = i;
             notebookGrp.add(noteBookSpr);
             //noteBookSpr.scale.set(1.5, 1.5);
@@ -130,6 +130,10 @@ class CreditsWildWoods extends MusicBeatState
             FlxG.sound.play(Paths.sound('cancelMenu'));
             MusicBeatState.switchState(new MainMenuState());
         }
+
+		if(controls.ACCEPT && chars[curSelected][1] != '') {
+			CoolUtil.browserLoad(chars[curSelected][1]);
+		}
 
         super.update(elapsed);
     }

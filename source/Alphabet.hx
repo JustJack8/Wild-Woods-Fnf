@@ -302,7 +302,7 @@ class AlphaCharacter extends FlxSprite
 		'#'  => null,
 		'$'  => null,
 		'%'  => null,
-		':'  => {offsets: [0, 2]},
+		':'  => {anim: 'colon', offsets: [0, 2]},
 		';'  => {offsets: [0, -2]},
 		'@'  => null,
 		'['  => null,

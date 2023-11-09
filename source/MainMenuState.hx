@@ -13,6 +13,7 @@ import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
+import flixel.util.FlxTimer;
 import flixel.math.FlxMath;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -20,6 +21,7 @@ import flixel.util.FlxColor;
 import lime.app.Application;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import WeekData;
 
 using StringTools;
 
@@ -54,6 +56,7 @@ class MainMenuState extends MusicBeatState
 		#end
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 
+		WeekData.reloadWeekFiles(true);
 		camGame = new FlxCamera();
 		camAchievement = new FlxCamera();
 		camAchievement.bgColor.alpha = 0;
@@ -116,9 +119,6 @@ class MainMenuState extends MusicBeatState
 					menuItem.y = 571;
 			}
 			menuItems.add(menuItem);
-
-			editableSprite = menuItem;
-			editMode = true; 
 		}
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
@@ -254,7 +254,29 @@ class MainMenuState extends MusicBeatState
 							switch (daChoice)
 							{
 								case 'Play':
-									MusicBeatState.switchState(new StoryMenuState());
+									var songArray:Array<String> = [];
+									var leWeek:Array<Dynamic> = WeekData.weeksLoaded.get(WeekData.weeksList[0]).songs;
+									for (i in 0...leWeek.length) {
+										songArray.push(leWeek[i][0]);
+									}
+						
+									// Nevermind that's stupid lmao
+									PlayState.storyPlaylist = songArray;
+									PlayState.isStoryMode = true;
+						
+									var diffic = '';
+						
+									PlayState.storyDifficulty = 0;
+						
+									PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
+									PlayState.storyWeek = 0;
+									PlayState.campaignScore = 0;
+									PlayState.campaignMisses = 0;
+									new FlxTimer().start(1, function(tmr:FlxTimer)
+									{
+										LoadingState.loadAndSwitchState(new PlayState(), true);
+										FreeplayState.destroyFreeplayVocals();
+									});
 								case 'Freeplay':
 									MusicBeatState.switchState(new FreeplayState());
 								case 'Credits':

@@ -2,43 +2,88 @@
 	"animations": [
 		{
 			"offsets": [
-				37,
-				11
+				103,
+				135
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "firstDeath",
-			"indices": [],
-			"name": "BF dies"
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38
+			],
+			"name": "mouse bf death"
 		},
 		{
-			"offsets": [
-				37,
-				5
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "BF Dead Loop"
-		},
-		{
-			"offsets": [
-				37,
-				69
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				346,
+				209
+			],
 			"anim": "deathConfirm",
-			"indices": [],
-			"name": "BF Dead confirm"
+			"fps": 24,
+			"name": "mouse bf death confirm",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				97,
+				135
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "mouse bf death loop",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND_DEAD",
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/nitw_bf_dream",
 	"position": [
-		0,
-		350
+		-70,
+		-180
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -48,8 +93,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		-250,
+		-580
 	],
 	"sing_duration": 4,
 	"scale": 1

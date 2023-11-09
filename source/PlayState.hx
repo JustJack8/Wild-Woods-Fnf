@@ -503,8 +503,11 @@ class PlayState extends MusicBeatState
 				bg.updateHitbox();
 				add(bg);
 
-				editableSprite = dadGroup;
-				editMode = true; 
+			case 'mae-dream': 
+				var bg:BGSprite = new BGSprite('wildWoodsStage/Mae_Dream_Stage_Edited', -767, -466, 1, 1);
+				bg.setGraphicSize(Std.int(3645));
+				bg.updateHitbox();
+				add(bg);
 
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
@@ -3908,7 +3911,7 @@ class PlayState extends MusicBeatState
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					MusicBeatState.switchState(new MainMenuState());
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
@@ -3949,7 +3952,7 @@ class PlayState extends MusicBeatState
 					prevCamFollow = camFollow;
 					prevCamFollowPos = camFollowPos;
 
-					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
+					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0], PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
 					if(winterHorrorlandNext) {

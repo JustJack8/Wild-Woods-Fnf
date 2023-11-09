@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf-mouse",
-		"player2": "mae",
+		"player1": "bf-mouse-dream",
+		"player2": "mae-dream",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -4768,6 +4768,26 @@
 				"bpm": 175
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 175,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 175
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -4784,7 +4804,7 @@
 		"song": "inner-unpeace",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "mae",
+		"stage": "mae-dream",
 		"speed": 2.8,
 		"bpm": 175
 	}

@@ -6,6 +6,7 @@
 	<SubTexture name="#0000" x="1" y="1" width="43" height="60"/>
 	<SubTexture name="$0000" x="47" y="1" width="34" height="67"/>
 	<SubTexture name="%0000" x="84" y="1" width="56" height="65"/>
+	<SubTexture name="% normal 0000" x="84" y="1" width="56" height="65"/>
 	<SubTexture name="&0000" x="143" y="1" width="35" height="62"/>
 	<SubTexture name="(0000" x="181" y="1" width="21" height="72"/>
 	<SubTexture name=")0000" x="205" y="1" width="21" height="72"/>
@@ -16,22 +17,29 @@
 	<SubTexture name="0 normal0000" x="318" y="1" width="31" height="64"/>
 	<SubTexture name="0 bold instance 10000" x="318" y="1" width="31" height="64"/>
 	<SubTexture name="10000" x="352" y="1" width="15" height="63"/>
+	<SubTexture name="1 normal0000" x="352" y="1" width="15" height="63"/>
 	<SubTexture name="1 bold instance 10000" x="352" y="1" width="15" height="63"/>
 	<SubTexture name="20000" x="370" y="1" width="26" height="65"/>
+	<SubTexture name="2 normal0000" x="370" y="1" width="26" height="65"/>
 	<SubTexture name="2 bold instance 0000" x="370" y="1" width="26" height="65"/>
 	<SubTexture name="30000" x="399" y="1" width="27" height="63"/>
+	<SubTexture name="3 normal0000" x="399" y="1" width="27" height="63"/>
 	<SubTexture name="40000" x="429" y="1" width="31" height="64"/>
+	<SubTexture name="4 normal0000" x="429" y="1" width="31" height="64"/>
 	<SubTexture name="50000" x="463" y="1" width="28" height="63"/>
+	<SubTexture name="5 normal0000" x="463" y="1" width="28" height="63"/>
 	<SubTexture name="60000" x="1" y="76" width="30" height="63"/>
+	<SubTexture name="6 normal0000" x="1" y="76" width="30" height="63"/>
 	<SubTexture name="70000" x="34" y="76" width="24" height="63"/>
 	<SubTexture name="7 normal0000" x="34" y="76" width="24" height="63"/>
-	<SubTexture name="80000" x="61" y="76" width="28" height="64"/>
+	<SubTexture name="8 normal0000" x="61" y="76" width="28" height="64"/>
 	<SubTexture name="8 bold instance 10000" x="61" y="76" width="28" height="64"/>
 	<SubTexture name="90000" x="92" y="76" width="30" height="65"/>
+	<SubTexture name="9 normal0000" x="92" y="76" width="30" height="65"/>
 	<SubTexture name="9 bold instance 10000" x="92" y="76" width="30" height="65"/>
 	<SubTexture name=":0000" x="125" y="76" width="10" height="41"/>
-	<SubTexture name="period normal" x="125" y="76" width="10" height="41"/>
-	<SubTexture name="period bold instance 1" x="125" y="76" width="10" height="41"/>
+	<SubTexture name="colon normal" x="125" y="76" width="10" height="41"/>
+	<SubTexture name="colon bold instance 1" x="125" y="76" width="10" height="41"/>
 	<SubTexture name=";0000" x="138" y="76" width="13" height="48"/>
 	<SubTexture name="< normal0000" x="154" y="76" width="42" height="45"/>
 	<SubTexture name="=0000" x="199" y="76" width="28" height="18"/>
@@ -115,6 +123,7 @@
 	<SubTexture name="e lowercase0000" x="481" y="347" width="25" height="62"/>
 	<SubTexture name="end parentheses0000" x="1" y="417" width="19" height="24"/>
 	<SubTexture name="exclamation point0000" x="23" y="417" width="12" height="64"/>
+	<SubTexture name="exclamation normal0000" x="23" y="417" width="12" height="64"/>
 	<SubTexture name="f lowercase0000" x="38" y="417" width="24" height="63"/>
 	<SubTexture name="forward slash0000" x="65" y="417" width="28" height="65"/>
 	<SubTexture name="g lowercase0000" x="96" y="417" width="31" height="62"/>
@@ -136,7 +145,8 @@
 	<SubTexture name="n lowercase0000" x="1" y="485" width="30" height="64"/>
 	<SubTexture name="o lowercase0000" x="34" y="485" width="31" height="62"/>
 	<SubTexture name="p lowercase0000" x="68" y="485" width="29" height="63"/>
-	<SubTexture name="period0000" x="100" y="485" width="9" height="12"/>
+	<SubTexture name="period normal0000" x="100" y="485" width="9" height="12"/>\
+	<SubTexture name="period bold instance 10000" x="100" y="485" width="9" height="12"/>
 	<SubTexture name="q lowercase0000" x="112" y="485" width="34" height="63"/>
 	<SubTexture name="question normal0000" x="149" y="485" width="28" height="64"/>
 	<SubTexture name="r lowercase0000" x="180" y="485" width="29" height="62"/>
